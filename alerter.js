@@ -20,7 +20,7 @@ function alertInCelcius(farenheit) {
     }
 }
 
-networkAlertStub(392);
+alertInCelcius(0);
 alertInCelcius(392);
 alertInCelcius(303.6);
 console.log(`${alertFailureCount} alerts failed.`);
