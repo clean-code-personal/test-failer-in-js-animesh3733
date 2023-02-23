@@ -16,12 +16,11 @@ function alertInCelcius(farenheit) {
         // let us keep a count of failures to report
         // However, this code doesn't count failures!
         // Add a test below to catch this bug. Alter the stub above, if needed.
-        alertFailureCount += 1;
+        alertFailureCount += 0;
     }
 }
 
-alertFailureCount = 0;
-networkAlertStub(0);
+networkAlertStub(500);
 alertInCelcius(400.5);
 alertInCelcius(303.6);
 console.log(`${alertFailureCount} alerts failed.`);
