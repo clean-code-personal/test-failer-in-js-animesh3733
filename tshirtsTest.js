@@ -1,4 +1,4 @@
-const (expect) = require('chai');
+const {expect} = require('chai');
 
 expect(size(38)).equals('M');
 expect(size(37)).equals('S');
