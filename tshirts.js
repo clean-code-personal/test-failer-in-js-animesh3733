@@ -1,4 +1,4 @@
-function size(cms) {
+export function size(cms) {
     if (cms < 38) {
         return 'S';
     } else if (cms > 38 && cms < 42) {
