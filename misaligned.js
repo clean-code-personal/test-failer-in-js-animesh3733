@@ -3,7 +3,7 @@ function index_to_number(i,j){
 }
 
 function format_user_manual(i,j,majorColors,minorColor) {
-    return '${index_to_number(i,j)} | ${majorColor} | ${minorColor}`
+    return `${index_to_number(i,j)} | ${majorColor} | ${minorColor}`
 }
 
 function print_color_map() {
