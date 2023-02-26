@@ -1,4 +1,4 @@
-export function size(cms) {
+function size(cms) {
     if (cms < 38) {
         return 'S';
     } else if (cms > 38 && cms < 42) {
@@ -7,3 +7,5 @@ export function size(cms) {
         return 'L';
     }
 }
+
+module.exports = { size };
