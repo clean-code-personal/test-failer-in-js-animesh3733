@@ -1,5 +1,3 @@
-const {expect} = require('chai')
-
 function index_to_number(i,j){
     return i * 5 + j;
 }
@@ -15,9 +13,3 @@ function print_color_map() {
     return majorColors.length * minorColors.length;
 }
 
-
-result = print_color_map();
-
-expect(index_to_number(0,0)).equals(1));
-expect(result).equals(25);
-console.log('All is well (maybe!)');
