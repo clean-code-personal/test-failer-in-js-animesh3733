@@ -17,3 +17,5 @@ function print_color_map() {
     return majorColors.length * minorColors.length;
 }
 
+module.exports = { index_to_number, print_color_map, format_user_manual };
+
