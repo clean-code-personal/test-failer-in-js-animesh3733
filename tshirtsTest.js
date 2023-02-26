@@ -1,8 +1,8 @@
 const {expect} = require('chai');
-const size = require('./tshirts.js');
+const obj = require('./tshirts.js');
 
-expect(size(38)).equals('M');
-expect(size(37)).equals('S');
-expect(size(40)).equals('M');
-expect(size(43)).equals('L');
+expect(obj.size(38)).equals('M');
+expect(obj.size(37)).equals('S');
+expect(obj.size(40)).equals('M');
+expect(obj.size(43)).equals('L');
 console.log('All is well (maybe!)');
