@@ -2,8 +2,8 @@ function index_to_number(i,j){
     return i * 5 + j;
 }
 
-function format_user_manual(i,j,majorColors,minorColor) {
-    return `${index_to_number(i,j)} | ${majorColor} | ${minorColor}`
+function format_user_manual(i,j,majorColors,minorColors) {
+    return `${index_to_number(i,j)} | ${majorColors} | ${minorColors}`
 }
 
 function print_color_map() {
