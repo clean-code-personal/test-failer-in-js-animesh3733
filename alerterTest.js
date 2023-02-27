@@ -1,6 +1,15 @@
-const obj = require('./alerter.js');
+const chai = require('chai');
+const assert = chai.assert;
 
-obj.alertInCelcius(400.5);
-obj.alertInCelcius(303.6);
-console.log(`${obj.alertFailureCount} alerts failed.`);
-console.log('All is well (maybe!)');
+describe('alertInCelcius', function() {
+  it('should increase alertFailureCount when networkAlertSub returns a non-ok response',function() {
+    let alertFailureCount = 0;
+    
+    alertInCelcius(400.5);
+    alertInCelcius(303.6);
+    alertInCelcius(32);
+    
+    assert.equal(alertFailureCount,1);
+    
+    });
+});
