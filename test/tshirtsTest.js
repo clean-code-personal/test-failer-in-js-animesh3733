@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const obj = require('./tshirts.js.js');
+const obj = require('../tshirts/tshirts.js');
 
 describe('T-shirts', function() {
   describe('size()', function() {
