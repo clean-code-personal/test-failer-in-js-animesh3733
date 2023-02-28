@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const obj = require('./misaligned.js.js');
+const obj = require('../misaligned/misaligned.js');
 
 describe('Misaligned', function() {
   describe('index_to_number()', function() {
