@@ -16,6 +16,13 @@ jobs:
       - name: Install Dependncies
         run:  sudo npm install
       
-      - name: run and test
-        run: npx mocha 
+      - name: run and test alerter
+        run: npx mocha "alerterTest.js"
+        
+      - name: run and misaligned
+        run: npx mocha "misalignedTest.js"  
+        
+      - name: run and test tshirts
+        run: npx mocha "tshirtsTest.js"
+        
 
