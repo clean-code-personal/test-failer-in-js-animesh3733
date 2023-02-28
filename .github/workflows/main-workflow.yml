@@ -17,6 +17,6 @@ jobs:
         run:  sudo npm install
       
       - name: run and test
-        run: npx mocha 
+        run: "npx mocha" 
         
 
