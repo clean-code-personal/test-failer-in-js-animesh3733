@@ -1,9 +1,17 @@
-const expect = require('chai');
-
+const assert = require('chai').assert;
 const obj = require('./misaligned.js');
 
-result = obj.print_color_map();
+describe('Misaligned', function() {
+  describe('index_to_number()', function() {
+    it('should return "01" for row 0 and column 0', function() {
+      assert.equal(obj.index_to_number(0, 0), '01');
+    });
+  });
 
-expect(obj.index_to_number(0,0)).equals('01');
-expect(result).equals(25);
-console.log('All is well (maybe!)');
+  describe('print_color_map()', function() {
+    it('should return 25', function() {
+      assert.equal(obj.print_color_map(), 25);
+    });
+  });
+});
+
