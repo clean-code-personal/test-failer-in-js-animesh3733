@@ -24,4 +24,4 @@ function alertInCelcius(farenheit) {
     }
 }
 
-module.exports = { networkAlertStub, alertInCelcius, alertFailureCount }; 
+module.exports = { alertFailureCount, alertInCelcius };
