@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const { alertFailureCount, alertInCelcius } = require('./alerter.js.js');
+const { alertFailureCount, alertInCelcius } = require('test/alerter.js');
 const { describe, it } = require('mocha'); 
 
 describe('alertInCelcius', function() {
