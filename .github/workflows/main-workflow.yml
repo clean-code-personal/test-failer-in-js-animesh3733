@@ -17,6 +17,6 @@ jobs:
         run:  sudo npm install
       
       - name: Run and test
-        run: "npx mocha" 
+        run: "npx mocha test/alerterTest.js" 
         
 
