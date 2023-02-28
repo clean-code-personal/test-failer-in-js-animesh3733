@@ -17,12 +17,12 @@ jobs:
         run:  sudo npm install
       
       - name: run and test alerter
-        run: npx mocha "alerterTest.js"
+        run: npx mocha "tests/alerterTest.js"
         
       - name: run and test misaligned
-        run: npx mocha "misalignedTest.js"
+        run: npx mocha "tests/misalignedTest.js"
         
       - name: run and test tshirts
-        run: npx mocha "tshirtsTest.js"
+        run: npx mocha "tests/tshirtsTest.js"
         
 
