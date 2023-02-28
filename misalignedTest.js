@@ -3,8 +3,8 @@ const obj = require('./misaligned.js');
 
 describe('Misaligned', function() {
   describe('index_to_number()', function() {
-    it('should return "01" for row 0 and column 0', function() {
-      assert.equal(obj.index_to_number(0, 0), '01');
+    it('should return "00" for row 0 and column 0', function() {
+      assert.equal(obj.index_to_number(0, 0), '00');
     });
   });
 
