@@ -1,5 +1,5 @@
 function index_to_number(i,j){
-    return i * 5 + j;
+    return (i * 5 + j).toString().padStart(2,'0');
 }
 
 function format_user_manual(i,j,majorColors,minorColors) {
