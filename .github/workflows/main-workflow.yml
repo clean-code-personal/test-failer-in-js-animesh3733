@@ -20,7 +20,7 @@ jobs:
         run: npx mocha "alerterTest.js"
         
       - name: run and test misaligned
-        run: npx mocha "mislignedTest.js"
+        run: npx mocha "misalignedTest.js"
         
       - name: run and test tshirts
         run: npx mocha "tshirtsTest.js"
