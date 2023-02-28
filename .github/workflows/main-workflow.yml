@@ -19,10 +19,10 @@ jobs:
       - name: run and test alerter
         run: npx mocha "alerterTest.js"
         
-      - name: run and misaligned
-        run: bash .github/workflows/expectfail.sh "npx mocha misalignedTest.js"  
+      - name: run and test misaligned
+        run: npx mocha "mislignedTest.js"
         
       - name: run and test tshirts
-        run: bash .github/workflows/expectfail.sh "npx mocha tshirtsTest.js"
+        run: npx mocha "tshirtsTest.js"
         
 
