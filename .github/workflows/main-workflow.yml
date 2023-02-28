@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependncies
         run:  sudo npm install
       
-      - name: run and test
+      - name: Run and test
         run: "npx mocha" 
         
 
