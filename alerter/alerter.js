@@ -5,7 +5,7 @@ function networkAlertStub(celcius) {
     // Return 200 for ok
     // Return 500 for not-ok
     // stub always succeeds and returns 200
-    if (alertFailureCount == 2) {
+    if (alertFailureCount === 2) {
         return 500;
     }
     return 200; 
